@@ -23,7 +23,7 @@ platforms = {
     KOREA: 'KR',
     LATIN_AMERICA_NORTH: 'LA1',
     LATIN_AMERICA_SOUTH: 'LA2',
-    NORTH_AMERICA: 'NA1',
+    NORTH_AMERICA: 'NA',
     OCEANIA: 'OC1',
     RUSSIA: 'RU',
     TURKEY: 'TR1',
@@ -263,7 +263,7 @@ class RiotWatcher:
             if kwargs[k] is not None:
                 args[k] = kwargs[k]
         r = requests.get(
-            'https://{proxy}.api.pvp.net/api/lol/{static}{region}/{url}'.format(
+            'https://{proxy}.api.riotgames.net/api/lol/{static}{region}/{url}'.format(
                 proxy='global' if static else region,
                 static='static-data/' if static else '',
                 region=region,
@@ -285,7 +285,7 @@ class RiotWatcher:
             if kwargs[k] is not None:
                 args[k] = kwargs[k]
         r = requests.get(
-            'https://{proxy}.api.pvp.net/observer-mode/rest/{url}'.format(
+            'https://{proxy}.api.riotgames.net/observer-mode/rest/{url}'.format(
                 proxy=proxy,
                 url=url
             ),
