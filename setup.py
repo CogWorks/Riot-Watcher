@@ -13,8 +13,8 @@ setup(
 
     description='RiotWatcher is a thin wrapper on top of the Riot Games API for League of Legends.',
     long_description=open(descr_file).read(),
-    author='AG Stephan',
-    url='https://github.com/pseudonym117/Riot-Watcher',
+    author='Original - AG Stephan, New - MD Sangster',
+    url='https://github.com/CogWorks/Riot-Watcher',
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Topic :: Software Development :: Libraries :: Python Modules',
