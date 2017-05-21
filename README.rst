@@ -1,4 +1,4 @@
-RiotWatcher v1.3.2
+RiotWatcher v1.3.3
 ==================
 
 RiotWatcher is a thin wrapper on top of the `Riot Games API for League
