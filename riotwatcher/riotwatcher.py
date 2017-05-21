@@ -23,7 +23,7 @@ platforms = {
     KOREA: 'KR',
     LATIN_AMERICA_NORTH: 'LA1',
     LATIN_AMERICA_SOUTH: 'LA2',
-    NORTH_AMERICA: 'NA',
+    NORTH_AMERICA: 'NA1',
     OCEANIA: 'OC1',
     RUSSIA: 'RU',
     TURKEY: 'TR1',
