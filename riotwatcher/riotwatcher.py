@@ -271,7 +271,7 @@ class RiotWatcher:
             ),
             params=args
         )
-        print r.url
+        return r.url
         if not static:
             for lim in self.limits:
                 lim.add_request()
