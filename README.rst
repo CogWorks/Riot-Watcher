@@ -129,9 +129,13 @@ make sure its the API f-ing up not your code):
 
 Changelog
 ---------
-05/21/2017
+v.1.3.3 - 05/21/2017
 ~~~~~~~~~~~~~~~~~~
 mddsangster made new branch to keep up with RiotGames API changes
+
+fixed timeline request in match-v2.2 api call
+fixed base request command
+next update will adapt to new match-v3.0 api
 
 
 v1.3.2 - 11/16/2015
