@@ -271,7 +271,6 @@ class RiotWatcher:
             ),
             params=args
         )
-        return r.url
         if not static:
             for lim in self.limits:
                 lim.add_request()
@@ -505,6 +504,10 @@ class RiotWatcher:
         )
 
     def get_match(self, match_id, region=None, include_timeline=False):
+        if include_timeline:
+            include_timeline='true'
+        else:
+            include_timeline='false'
         return self._match_request(
             '{match_id}'.format(match_id=match_id),
             region,
